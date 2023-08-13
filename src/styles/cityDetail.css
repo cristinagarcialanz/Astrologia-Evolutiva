@@ -1,0 +1,170 @@
+.backCities {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 5rem;
+  right: .5rem;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  padding: .7rem;
+  font-size: 1.2rem;
+  border-radius: 50px;
+  border: 2px solid #ffa100;
+  background: #ffa100;
+  max-width: 5rem;
+  margin: 1rem 0 0 1rem;
+  transition: transform 0.3s ease;
+  z-index: 999;
+}
+
+.backCities:hover {
+  border: 2px solid #fbae28;
+  background: #fbae28;
+  transform: scale(1.1);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  max-width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: white;
+  padding: 0.7rem 0;
+}
+
+.card-image-container {
+
+  width: 47%;
+  max-height: 80vh;
+  min-width: 18rem;
+
+}
+
+.card-image {
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+.card-detail {
+
+  width: 47%;
+  min-width: 18rem;
+  padding-top: 1rem;
+}
+
+.card-detail-caption {
+  font-size: 1.5rem;
+  letter-spacing: 4px;
+}
+
+.card-detail-title {
+  font-size: 2.2rem;
+  margin: 0;
+}
+
+.card-detail-desc {
+  font-size: 1rem;
+  font-family: "Open sans", sans-serif;
+  line-height: 1.5;
+  color: #000000;
+}
+
+.card-detail-amount {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.card-detail-amount-total {
+  font-size: 1.3rem;
+  margin-right: 1rem;
+  font-weight: 500;
+}
+
+.card-detail-amount-prev-total {
+  font-size: 1rem;
+  /*applt strike through the text*/
+  text-decoration: line-through;
+  font-family: "Open sans", sans-serif;
+}
+
+.containerItinerary {
+  display: flex;
+  flex-direction: row;
+  padding: 0.7rem;
+}
+
+.card-detail-buttonItinerary {
+  margin: 0.7rem;
+  padding: 0.8rem;
+  border: none;
+  color: #fff;
+  width: 30%;
+  border-radius: 0.5rem;
+  background-color: #ffa100;
+  max-width: 7rem;
+  transition: transform 0.3s ease;
+}
+
+.card-detail-buttonItinerary:hover {
+  border: 2px solid #fbae28;
+  background: #fbae28;
+  transform: scale(1.1);
+}
+
+.card-detail-amount {
+  display: inline-flex;
+  align-items: center;
+}
+
+.tituloAvatar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container-cityDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleItinerary {
+  width: 100%;
+}
+
+.itinerariesTitle {
+  display: flex;
+  justify-content: center;
+  padding: 1.2rem 0;
+  color: #ffffff;
+  font-size: 1.5rem;
+  background-color: #ffa100;
+  width: 20%;
+  border-radius: 0 3rem 3rem 0;
+}
+
+#link{
+  margin-top: 1rem;
+}
+@media (max-width: 376px) {
+   
+  .backCities{
+    font-size: .8rem;
+  }
+}
+@media (max-width: 321px) {
+   
+  .backCities{
+    font-size: .8rem;
+  }
+}

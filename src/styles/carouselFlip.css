@@ -1,0 +1,22 @@
+.carouselFlip {
+    width: 25rem;
+    height: 20rem;
+    padding: 0 0 2rem 0;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 25rem;
+    height: 20rem;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
+  
+
+  .css-46bh2p-MuiCardContent-root:last-child {
+    padding-bottom: 0 !important;
+  }
